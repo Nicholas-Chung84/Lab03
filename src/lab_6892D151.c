@@ -3,6 +3,12 @@
 long calculate_factorial(int number )
 {
     // TODO: write your code here
+    long result =1;
+    for(int i=1 ; i<=number; i++){
+        result *= i;
+        printf("%d\n" , result );
+    }
+    return result;
 }
 
 // DO NOT change the code below
