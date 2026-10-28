@@ -6,7 +6,7 @@ long calculate_factorial(int number )
     long result =1;
     for(int i=1 ; i<=number; i++){
         result *= i;
-        printf("%d\n" , result );
+       // printf("%d\n" , result );
     }
     return result;
 }
